@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Text"
+            android:padding="3dp"
+            android:textSize="12sp"
+            android:gravity="left"
+            android:id="@+id/CurrencyTextView" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Text"
+            android:padding="3dp"
+            android:gravity="center"
+            android:id="@+id/CashBuyTextView" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Text"
+            android:padding="3dp"
+            android:gravity="center"
+            android:id="@+id/CashSoldTextView" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Text"
+
+            android:padding="3dp"
+            android:gravity="center"
+            android:id="@+id/SpotBuyTextView" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Text"
+            android:padding="3dp"
+            android:gravity="center"
+            android:id="@+id/SpotSoldTextView" />
+    </TableRow>
+
+</TableLayout>
